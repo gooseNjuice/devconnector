@@ -40,7 +40,7 @@ router.post(
     async (req, res) => {
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
-            return res.status(400).json({ errors: errors.array() });
+            return res.status(400).json({errors: errors.array()});
         }
 
         const {
@@ -82,9 +82,9 @@ router.post(
         try {
             // Using upsert option (creates new doc if no match is found):
             let profile = await Profile.findOneAndUpdate(
-                { user: req.user.id },
-                { $set: profileFields },
-                { new: true, upsert: true }
+                {user: req.user.id},
+                {$set: profileFields},
+                {new: true, upsert: true}
             );
             res.json(profile);
         } catch (err) {
@@ -93,5 +93,38 @@ router.post(
         }
     }
 );
+// @route   GET api/profile/
+// @desc    Get all profiles
+// @access  Public
+router.get('/', async (req, res) => {
+    try {
+        const profiles = await Profile.find().populate('user', ['name', 'avatar']);
+        res.json(profiles)
+    } catch (e) {
+        console.error(e.message)
+        res.send(500).json('Server error')
+    }
+
+})
+// @route   GET api/profile/user/:user_id
+// @desc    Get profile by user ID
+// @access  Public
+router.get('/user/:user_id', async (req, res) => {
+    try {
+        const profile = await Profile.findOne({user:req.params.user_id}).populate('user', ['name', 'avatar']);
+        if(!profile) return res.status(400).json({msg: 'Profile not found'});
+
+        res.json(profile)
+    } catch (e) {
+        console.error(e.message)
+        if(e.kind == 'ObjectId'){
+            return res.status(400).json({msg: 'Profile not found'});
+        }
+        res.send(500).json('Server error')
+    }
+
+})
+
+
 
 module.exports = router;
