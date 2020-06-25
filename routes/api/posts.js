@@ -170,18 +170,18 @@ router.delete('/comment/:id/:comment_id', auth, async (req, res) => {
             post.comments.find(comment => comment.id === req.params.comment_id);
 
         //Make sure comment exists
-        if(!comment){
-            return res.status(404).json({msg:'Comment does not exist'})
+        if (!comment) {
+            return res.status(404).json({msg: 'Comment does not exist'})
         }
 
         //Check user
-        if(comment.user.toString()!==req.user.id) {
-            return res.status(401).json({msg:'User not authorized'})
+        if (comment.user.toString() !== req.user.id) {
+            return res.status(401).json({msg: 'User not authorized'})
         }
-        
+
         //Get remove index
-        const removeIndex = post.comments.map(comment  =>
-            comment .user.toString()).indexOf(req.user.id);
+        const removeIndex = post.comments.map(comment =>
+            comment.user.toString()).indexOf(req.user.id);
 
         post.comments.splice(removeIndex, 1);
         await post.save()
@@ -192,5 +192,48 @@ router.delete('/comment/:id/:comment_id', auth, async (req, res) => {
         res.status(500).send('Server error')
     }
 })
+// @route   PUT api/posts/comment/:id/:comment_id
+// @desc    Edit comment
+// @access  Private
+router.put('/comment/:id/:comment_id', [auth,
+        check("text", "text is required").not().isEmpty()
+    ],
+    async (req, res) => {
+        try {
+            const post = await Post.findById(req.params.id);
+            const comment = post.comments.find(comment => comment.id === req.params.comment_id);
+console.log(post)
+console.log(comment)
+            //Make sure comment exists
+            if (!comment) {
+                return res.status(404).json({msg: 'Comment does not exist'})
+            }
+
+            //Check user
+            if (comment.user.toString() !== req.user.id) {
+                return res.status(401).json({msg: 'User not authorized'})
+            }
+
+            //Get update index
+            const updateIndex = post.comments.map(comment =>
+                comment.user.toString()).indexOf(req.user.id);
+
+            const newComment = {
+                text: req.body.text,
+                name: comment.name,
+                avatar: comment.avatar,
+                user: comment.user
+            };
+
+            post.comments[updateIndex] = newComment;
+            await post.save()
+
+            res.json(post.comments)
+
+        } catch (e) {
+            console.error(e.message)
+            res.status(500).send('Server error')
+        }
+    })
 
 module.exports = router;
