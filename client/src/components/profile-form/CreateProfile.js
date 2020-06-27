@@ -36,8 +36,8 @@ const CreateProfile = ({createProfile, history}) => {
     } = formData;
 
     const onChange = e => setFormData({
-        ...formData, [e.target.name]:
-        e.target.value
+        ...formData,
+        [e.target.name]: e.target.value
     });
     const onSubmit = e => {
         e.preventDefault();
@@ -50,7 +50,7 @@ const CreateProfile = ({createProfile, history}) => {
                 Create Your Profile
             </h1>
             <p className="lead">
-                <i className="fas fa-user"></i> Let's get some information to make your
+                <i className="fas fa-user"/> Let's get some information to make your
                 profile stand out
             </p>
             <small>* = required field</small>
