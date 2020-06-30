@@ -31,7 +31,7 @@ export default function (state = initialState, action) {
         case LOGIN_FAIL:
         case LOGOUT:
         case ACCOUNT_DELETED:
-            localStorage.removeItem('token ')
+            localStorage.removeItem('token')
             return {
                 ...state, token: null, isAuthenticated: false,
                 loading: false
