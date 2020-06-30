@@ -29,7 +29,7 @@ export default function (state = initialState, action) {
             return {
                 ...state,
                 profile: null,
-                pepos: [],
+                repos: [],
                 loading: false
             }
         default:
