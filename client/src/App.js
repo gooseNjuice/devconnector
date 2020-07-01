@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
 import Dashboard from "./components/dashboard/Dashboard";
+import Post from "./components/post/Post";
 import Posts from "./components/posts/Posts";
 import CreateProfile from "./components/profile-form/CreateProfile";
 import EditProfile from "./components/profile-form/EditProfile";
@@ -46,6 +47,7 @@ const App = () => {
                             <PrivateRoute exact path='/add-experience' component={AddExperience}/>
                             <PrivateRoute exact path='/add-education' component={AddEducation}/>
                             <PrivateRoute exact path='/posts' component={Posts}/>
+                            <PrivateRoute exact path='/posts/:id' component={Post}/>
                         </Switch>
                     </section>
                 </Fragment>
