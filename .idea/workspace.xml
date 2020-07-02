@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9a1ebf0-f9bd-4371-b0dc-ffb0438bfc2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/devconnector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/layout/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/layout/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/profile-forms/AddEducation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/profile-forms/AddExperience.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/profile-forms/CreateProfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/profile-forms/EditProfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/routing/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/setAuthToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/DashboardActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/dashboard/DashboardActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/dashboard/Education.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/dashboard/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/dashboard/Experience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Spinner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/post/CommentForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/post/CommentForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/post/CommentItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/post/CommentItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/post/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/posts/PostForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/PostForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/posts/PostItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/PostItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/posts/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-form/AddEducation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-form/AddExperience.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-form/CreateProfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile-form/EditProfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileAbout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileEducation.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileEducation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileExperience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileGithub.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileGithub.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profile/ProfileTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/ProfileTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profiles/ProfileItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profiles/ProfileItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profiles/Profiles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/routhing/PrivateRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/helpers/setAuthToken.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/img/126.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="devconnector" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Reacct Component" />
+        <option value="React Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Posts&amp;Comments" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/devconnector.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d5W5eoTMkQ9alFxI5jpWIfZIlm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v14.5.0/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/img" />
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/client/src/components" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9a1ebf0-f9bd-4371-b0dc-ffb0438bfc2d" name="Default Changelist" comment="" />
+      <created>1591715252202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591715252202</updated>
+      <workItem from="1591715253500" duration="2848000" />
+      <workItem from="1591718120660" duration="9379000" />
+      <workItem from="1591728665558" duration="2000" />
+      <workItem from="1591728746840" duration="134000" />
+      <workItem from="1591728918406" duration="13243000" />
+      <workItem from="1592316091302" duration="1775000" />
+      <workItem from="1592931579367" duration="82443000" />
+      <workItem from="1593233188196" duration="10294000" />
+      <workItem from="1593245347160" duration="3577000" />
+      <workItem from="1593248943852" duration="44167000" />
+      <workItem from="1593612902591" duration="953000" />
+      <workItem from="1593616002238" duration="2324000" />
+      <workItem from="1593618801354" duration="957000" />
+      <workItem from="1593619808258" duration="2795000" />
+      <workItem from="1593622617463" duration="5092000" />
+      <workItem from="1593660471049" duration="3259000" />
+      <workItem from="1593693212326" duration="4055000" />
+    </task>
+    <task id="LOCAL-00004" summary="Data model create">
+      <created>1591780237484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591780237484</updated>
+    </task>
+    <task id="LOCAL-00005" summary="User validate">
+      <created>1591784911939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591784911939</updated>
+    </task>
+    <task id="LOCAL-00006" summary="User registration:&#10;Check if user exists&#10;Get user's gravatar&#10;Encrypt password">
+      <created>1592936770616</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592936770616</updated>
+    </task>
+    <task id="LOCAL-00007" summary="jwt implementation">
+      <created>1592981469251</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592981469251</updated>
+    </task>
+    <task id="LOCAL-00008" summary="auth middleware">
+      <created>1592985183382</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592985183383</updated>
+    </task>
+    <task id="LOCAL-00009" summary="user authentication login route">
+      <created>1592987940293</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592987940293</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Profile data model">
+      <created>1592990573757</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592990573757</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Get profile">
+      <created>1592993961350</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592993961350</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Create &amp; update profile routes">
+      <created>1593007452222</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593007452223</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Get all profiles&#10;Get profile by user ID">
+      <created>1593010070773</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593010070773</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Remove user &amp; profile route">
+      <created>1593066408488</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593066408488</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add experience route">
+      <created>1593068112285</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593068112285</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add &amp; remove education routes">
+      <created>1593072733222</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593072733222</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Get github data">
+      <created>1593078497404</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593078497404</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Post model">
+      <created>1593078518849</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1593078518849</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add post route">
+      <created>1593081620959</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1593081620959</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Get &amp; delete post routes&#10;Like/unlike routes">
+      <created>1593088132932</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1593088132932</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add &amp; remove comment routes">
+      <created>1593092709858</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1593092709858</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Edit comment route">
+      <created>1593094332491</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1593094332492</updated>
+    </task>
+    <task id="LOCAL-00023" summary="create-react-app&#10;some npm scripts">
+      <created>1593155503438</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1593155503438</updated>
+    </task>
+    <task id="LOCAL-00024" summary="styles, fontawesome&#10;some ui components">
+      <created>1593161484119</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1593161484119</updated>
+    </task>
+    <task id="LOCAL-00025" summary="layout and auth ui components">
+      <created>1593171503688</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1593171503689</updated>
+    </task>
+    <task id="LOCAL-00026" summary="basic store">
+      <created>1593175640534</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1593175640534</updated>
+    </task>
+    <task id="LOCAL-00027" summary="alerts">
+      <created>1593184308888</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1593184308888</updated>
+    </task>
+    <task id="LOCAL-00028" summary="auth reducer&#10;register action">
+      <created>1593190997107</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1593190997108</updated>
+    </task>
+    <task id="LOCAL-00029" summary="load user&#10;set auth token">
+      <created>1593195075068</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1593195075087</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Logout Navbar links">
+      <created>1593235878202</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1593235878202</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Dashboard private route">
+      <created>1593237131677</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1593237131677</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Profile reducer&#10;Get current profile">
+      <created>1593240210819</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1593240210819</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Create profile component">
+      <created>1593274779786</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1593274779786</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Create profile component">
+      <created>1593276270065</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1593276270065</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Create profile action">
+      <created>1593278579281</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1593278579281</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Edit profile">
+      <created>1593445487359</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1593445487360</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add experience &amp; education">
+      <created>1593449391179</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1593449391179</updated>
+    </task>
+    <task id="LOCAL-00038" summary="List experience &amp; education">
+      <created>1593457687942</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1593457687942</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Delete education, experience add account (with posts)">
+      <created>1593509951926</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1593509951926</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Finish profile actions &amp; reducer">
+      <created>1593511602857</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1593511602857</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Display profiles">
+      <created>1593513762183</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1593513762183</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Profile route and buttons">
+      <created>1593517375582</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1593517375582</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Profile displaying components">
+      <created>1593518393295</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1593518393295</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Profile Experience  Education Display">
+      <created>1593519143931</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1593519143931</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Display github repos">
+      <created>1593525573114</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1593525573114</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Post action, reducer &amp; initial component">
+      <created>1593526731047</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1593526731047</updated>
+    </task>
+    <task id="LOCAL-00047" summary="PostItem component">
+      <created>1593530903999</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1593530903999</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Like unlike functionality">
+      <created>1593584463770</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1593584463770</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Delete post">
+      <created>1593585137915</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1593585137916</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Adding posts&#10;Single post display">
+      <created>1593590524778</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1593590524787</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Comment display &amp; delete">
+      <created>1593591593280</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1593591593280</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Comment display &amp; delete">
+      <created>1593594596043</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1593594596043</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="basic store" />
+    <MESSAGE value="alerts" />
+    <MESSAGE value="auth reducer&#10;register action" />
+    <MESSAGE value="load user&#10;set auth token" />
+    <MESSAGE value="Logout Navbar links" />
+    <MESSAGE value="Dashboard private route" />
+    <MESSAGE value="Profile reducer&#10;Get current profile" />
+    <MESSAGE value="Create profile component" />
+    <MESSAGE value="Create profile action" />
+    <MESSAGE value="Edit profile" />
+    <MESSAGE value="Add experience &amp; education" />
+    <MESSAGE value="List experience &amp; education" />
+    <MESSAGE value="Delete education, experience add account (with posts)" />
+    <MESSAGE value="Finish profile actions &amp; reducer" />
+    <MESSAGE value="Display profiles" />
+    <MESSAGE value="Profile route and buttons" />
+    <MESSAGE value="Profile displaying components" />
+    <MESSAGE value="Profile Experience  Education Display" />
+    <MESSAGE value="Display github repos" />
+    <MESSAGE value="Post action, reducer &amp; initial component" />
+    <MESSAGE value="PostItem component" />
+    <MESSAGE value="Like unlike functionality" />
+    <MESSAGE value="Delete post" />
+    <MESSAGE value="Adding posts&#10;Single post display" />
+    <MESSAGE value="Comment display &amp; delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comment display &amp; delete" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+</project>
