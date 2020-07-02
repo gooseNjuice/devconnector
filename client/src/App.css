@@ -364,10 +364,10 @@ button {
 .profile-grid {
   display: grid;
   grid-template-areas:
-          'top top'
-          'about about'
-          'exp edu'
-          'github github';
+    'top top'
+    'about about'
+    'exp edu'
+    'github github';
   grid-gap: 1rem;
 }
 
@@ -550,11 +550,11 @@ button {
 
   .profile-grid {
     grid-template-areas:
-            'top'
-            'about'
-            'exp'
-            'edu'
-            'github';
+      'top'
+      'about'
+      'exp'
+      'edu'
+      'github';
   }
 
   .profile-about .skills {
